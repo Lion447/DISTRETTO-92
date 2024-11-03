@@ -1,0 +1,129 @@
+/* CARRUSEL DE IMÁGENES */
+.element-img{
+  height: 200px;
+  width: 100%;
+  object-fit: fill;
+  filter: brightness(0.6);
+
+}
+
+.element1-img{
+  height: 65vh;
+  width: 50%;
+  object-fit: fill;
+  filter: brightness(0.6);
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:9.75vw;
+  top:0;
+  height:80%;
+  width:80%;
+  position:absolute;
+}
+
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+/* Ajusta el tamaño del botón de envío */
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #4589a0;
+  border: none;
+}
+
+/* Asegura que los elementos de entrada no causen desbordamiento */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #0c0c0c;
+    border-radius: 4px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 50vh; /* Ajusta la altura según sea necesario */
+  object-fit: cover;
+} 
+
+/* Estilos personalizados para la barra de navegación */
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.25rem; /* Tamaño de fuente más grande */
+  display: flex;
+  justify-content: center;
+}
+.navbar-custom .navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.navbar-custom .navbar-brand {
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Estilo para el ícono de WhatsApp flotante */
+.whatsapp_float {
+  position: fixed;
+  bottom: 350px; /* Distancia desde el fondo de la página */
+  right: 20px;  /* Distancia desde el margen derecho de la página */
+  z-index: 1000; /* Asegura que el ícono esté sobre otros elementos */
+}
+
+.whatsapp_icon {
+  width: 60px; /* Tamaño del ícono */
+  height: 60px; /* Tamaño del ícono */
+  border-radius: 50%; /* Hace que el ícono sea circular */
+  background-color: #25D366; /* Fondo verde de WhatsApp */
+  padding: 10px; /* Espacio interno para que el ícono no quede pegado al borde */
+}
+/* Asegura que los mensajes Toastify se muestren claramente */
+.toastify {
+  z-index: 1050; /* Asegura que esté sobre otros elementos */
+  padding: 10px 20px; /* Aumenta el padding para mejor visibilidad */
+  font-size: 16px; /* Tamaño de fuente más grande */
+  color: #ffffff; /* Color de texto blanco */
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro con opacidad */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+.toastify.toastify-top-right {
+  top: 20px; /* Distancia desde la parte superior */
+  right: 20px; /* Distancia desde el borde derecho */
+}
+
+.toastify.toastify-bottom-right {
+  bottom: 20px; /* Distancia desde la parte inferior */
+  right: 20px; /* Distancia desde el borde derecho */
+}
+
